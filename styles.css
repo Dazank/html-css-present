@@ -1,0 +1,228 @@
+*{box-sizing: border-box;}
+
+.container{display:grid;
+grid-template-columns: repeat(12,(minmax(200px,auto)));
+grid-template-rows: repeat(16,(minmax(300px,auto)));
+}
+
+.logo{
+height:50px;}
+
+.box{
+height:400px;
+max-width:100%;
+background-image: url(./images/bg-curve-desktop.svg);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: contain;
+}
+
+.sod{height:400px;
+    max-width:100%;
+
+}
+
+
+.nav{max-width: 100%;
+
+display:flex;
+justify-content: space-between;
+height:300px;
+padding-top: 4rem;
+padding-left: 2rem;} 
+
+.menu{text-align: center;
+list-style:none;
+display:flex;
+gap:1rem;
+margin-right:5%;
+justify-content: center;
+}
+h1{font-family:'raleway',sans-serif}
+
+p, ul{font-family:'open sans',sans-serif;
+font-weight: 400;}
+.hero{
+    max-width:100%;
+    background-image: url(./images/illustration-1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:500px;
+    padding-left: 2rem;
+    padding-bottom:80px;
+}
+.header1{
+    font-size: 2.5em;
+    max-width:600px;
+}
+
+.para1{
+    font-size: large;
+    font-weight: 400;
+    max-width:600px;
+}
+
+.textbox{height:50px;
+    font-family: 'open sans';
+    width:20rem;
+
+}
+.subbutton{height:50px;
+    width:12rem;
+    font-family: 'open sans';
+
+}
+.main{
+    max-width:100%;
+    background-image: url(./images/illustration-2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top:200px;
+    height:500px;
+    grid-row: 4;
+    display:grid;
+    grid-template-columns: repeat(12,(minmax(200px,auto)));
+grid-template-rows: repeat(12,(minmax(300px,auto)));
+
+padding-left:2rem;
+}
+
+.para2{
+    max-width:540px;
+}
+.green{
+    color: green;
+    text-decoration-line: underline;
+}
+.greenbutton{
+    align-self: center;
+    margin-bottom: -4px;
+    margin-left:2px;
+}
+
+.card{
+    max-width:450px;
+    height:300px;
+   
+    margin-top: 10px;
+    padding-top: 20px;
+    grid-row-start: 6;
+    grid-column: 7/ 12;
+    margin-left:2rem;
+}
+
+.wave{
+   
+    background-image: url();
+}
+
+.quotes{
+    height:20px;
+    padding-left: 2rem;
+}
+
+.fylo{
+    font-size: large;
+    font-weight: 400;
+    width:380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kyle{
+    height:45px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left:2rem;
+}
+
+.tiny{
+    font-size:x-small;
+    margin-left: 5rem;
+}
+
+.embolden{
+    font-weight: bold;
+}
+
+.below{
+    max-width: 100%;
+    height:350px;
+    background-color: hsl(238, 22%, 44%);
+    display: grid;
+    grid-template-columns: repeat(2,minmax(50%, auto));
+    padding-left: 2rem;
+}
+
+.mailweight{
+    margin-top:5rem;
+
+height:50px;
+
+width:85%;
+margin-right:3rem;
+min-width: 50%;
+}
+
+.buttonsuper{
+    height:50px;
+
+width:50%
+
+}
+
+.shaka{
+    grid-column: 1;
+    max-width:500px;
+}
+
+.footer{
+    max-width:100%;
+    height:500px;
+    display:flex;
+    justify-content: space-around;
+    background-color: hsl(243, 87%, 12%);
+    color:white;
+}
+
+.below2{
+    display:flex;
+    flex-direction: column;
+   
+    margin-right:5rem;
+    min-width:100%}
+
+
+   
+   
+   
+    
+
+.below1{
+
+    
+    grid-column: 1;
+    
+
+}
+
+ul{
+    list-style: none;
+}
+
+.logo2{
+    margin-top: 10rem;
+    
+}
+
+.unor{
+    margin-top: 15rem;
+
+}
+
+a{
+    text-decoration: none;
+color:inherit;
+}
